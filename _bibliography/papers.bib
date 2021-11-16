@@ -3,70 +3,75 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
+@article{kang2021realtime,
+  abbr={IEEE RAL},
+  author={Kang, Inseung and Molinaro, Dean D. and Duggal, Srijan and Chen, Yanrong and Kunapuli, Pratik and Young, Aaron J.},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Real-Time Gait Phase Estimation for Robotic Hip Exoskeleton Control During Multimodal Locomotion}, 
+  abstract={We developed and validated a gait phase estimator for real-time control of a robotic hip exoskeleton during multimodal locomotion. Gait phase describes the fraction of time passed since the previous gait event, such as heel strike, and is a promising framework for appropriately applying exoskeleton assistance during cyclic tasks. A conventional method utilizes a mechanical sensor to detect a gait event and uses the time since the last gait event to linearly interpolate the current gait phase. While this approach may work well for constant treadmill walking, it shows poor performance when translated to overground situations where the user may change walking speed and locomotion modes dynamically. To tackle these challenges, we utilized a convolutional neural network-based gait phase estimator that can adapt to different locomotion mode settings to modulate the exoskeleton assistance. Our resulting model accurately predicted the gait phase during multimodal locomotion without any additional information about the user's locomotion mode, with a gait phase estimation RMSE of 5.04 ± 0.79%, significantly outperforming the literature standard (p <; 0.05). Our study highlights the promise of translating exoskeleton technology to more realistic settings where the user can naturally and seamlessly navigate through different terrain settings.},
+  year={2021},
+  volume={6},
+  number={2},
+  pages={3491-3497},
+  doi={10.1109/LRA.2021.3062562},
+  url={https://ieeexplore.ieee.org/abstract/document/9364364},
+  html={https://ieeexplore.ieee.org/abstract/document/9364364},
+  pdf={kang2021realtime.pdf},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{kang2020realtime,
+  abbr={IEEE TMRB},
+  author={Kang, Inseung and Kunapuli, Pratik and Young, Aaron J.},
+  journal={IEEE Transactions on Medical Robotics and Bionics}, 
+  title={Real-Time Neural Network-Based Gait Phase Estimation Using a Robotic Hip Exoskeleton},
+  abstract={Lower limb exoskeletons provide assistance during the gait cycle using a state variable, one in particular is gait phase. This is crucial for the exoskeleton controller to provide the user accurate assistance. Conventional methods often utilize an event marker to estimate gait phase by computing the average stride time. However, this strategy has limitations in adapting to dynamic speeds. We developed a sensor fusion-based neural network model to estimate the gait phase in real-time that can adapt to dynamic speeds ranging from 0.6 to 1.1 m/s. Ten able-bodied subjects walked with an exoskeleton using our estimator and were provided with corresponding torque assistance. Our best performing model had RMSE below 29 ms and 4% for real-time estimation and torque generation, respectively, reducing the estimation error by 36.0% (p < 0.01) and torque error by 40.9% (p < 0.001) compared to conventional methods. Our results indicate that creating a general user-independent model and additionally training on user-specific data outperforms the user-specific model and user-independent model. Our study validates the feasibility of using a sensor fusion-based machine learning model to accurately estimate the user's gait phase and improve the controllability of a lower limb exoskeleton.}, 
+  year={2020},
+  volume={2},
+  number={1},
+  pages={28-37},
+  doi={10.1109/TMRB.2019.2961749},
+  url={https://ieeexplore.ieee.org/abstract/document/8941004},
+  html={https://ieeexplore.ieee.org/abstract/document/8941004},
+  pdf={kang2020realtime.pdf},
+  selected={true}
+  }
+
+@article{kang2019electromyography,
+  abbr={ICORR},
+  author={Kang, Inseung and Kunapuli, Pratik and Hsu, Hsiang and Young, Aaron J.},
+  booktitle={2019 IEEE 16th International Conference on Rehabilitation Robotics (ICORR)}, 
+  title={Electromyography (EMG) Signal Contributions in Speed and Slope Estimation Using Robotic Exoskeletons}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={548-553},
+  doi={10.1109/ICORR.2019.8779433},
+  abstract={Robotic exoskeletons have the capability to improve community ambulation in aging individuals. These exoskeleton controllers utilize different environmental information such as walking speeds and slope inclines to provide corresponding assistance. Several numerical approaches for estimating this environmental information have been implemented; however, they tend to be limited during dynamic changes. A possible solution is a machine learning model utilizing the user's electromyography (EMG) signals along with mechanical sensor data. We developed a neural network-based walking speed and slope estimator for a powered hip exoskeleton and explored the EMG signal contributions in both static and dynamic settings while wearing the device. We also analyzed the performance of different EMG electrode placements. The resulting machine learning model achieved error rates below 0.08 m/s RMSE and 1.3 RMSE. Our study findings from four able-bodied and two elderly subjects indicate that EMG can improve the performance by reducing the error rate by 14.8% compared to the model using only mechanical sensors. Additionally, results show that using EMG electrode configuration within the exoskeleton interface region is sufficient for the EMG model performance.},
+  url={https://ieeexplore.ieee.org/abstract/document/8779433},
+  html={https://ieeexplore.ieee.org/abstract/document/8779433},
+  pdf={kang2019electromyography.pdf},
+  selected={true}
+  }
+
+@article{bhakta2019impedance,
+  abbr={MIL MED},
+  author = {Bhakta, Krishan and Camargo, Jonathan and Kunapuli, Pratik and Childers, Lee and Young, Aaron},
+  title = "{Impedance Control Strategies for Enhancing Sloped and Level Walking Capabilities for Individuals with Transfemoral Amputation Using a Powered Multi-Joint Prosthesis}",
+  journal = {Military Medicine},
+  volume = {185},
+  number = {Supplement_1},
+  pages = {490-499},
+  year = {2019},
+  month = {12},
+  abstract = "{Powered prostheses are a promising new technology that may help people with lower-limb loss improve their ability to perform locomotion tasks. Developing active prostheses requires robust design methodologies and intelligent controllers to appropriately provide assistance to the user for varied tasks in different environments. The purpose of this study was to validate an impedance control strategy for a powered knee and ankle prosthesis using an embedded sensor suite of encoders and a six-axis load cell that would aid an individual in performing common locomotion tasks, such as level walking and ascending/descending slopes.Three amputees walked on a treadmill and four amputees walked on a ramp circuit to test whether a dual powered knee and ankle prosthesis could generate appropriate device joint kinematics across users.Investigators found that tuning 2–3 subject-specific parameters per ambulation mode was necessary to render individualized assistance. Furthermore, the kinematic profiles demonstrate invariance to walking speeds ranging from 0.63 to 1.07 m/s and incline/decline angles ranging from 7.8° to 14°.This work presents a strategy that requires minimal tuning for a powered knee \\&amp; ankle prosthesis that scales across a nominal range of both walking speeds and ramp slopes.}",
+  issn = {0026-4075},
+  doi = {10.1093/milmed/usz229},
+  url = {https://doi.org/10.1093/milmed/usz229},
+  eprint = {https://academic.oup.com/milmed/article-pdf/185/Supplement\_1/490/32524293/usz229.pdf},
+  html={https://academic.oup.com/milmed/article/185/Supplement_1/490/5670554?login=true},
+  pdf={bhakta2019impedance},
+  selected={true},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}

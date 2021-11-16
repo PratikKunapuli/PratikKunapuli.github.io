@@ -2,23 +2,21 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <strong>Ph.D. Student</strong>, University of Pennsylvania
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: #>
+    #<p>555 your office number</p>
+    #<p>123 your address street</p>
+    #<p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a doctoral student in Computer and Information Science (CIS) at [GRASP](https://www.grasp.upenn.edu/) at the University of Pennsylvania. I am co-advised by [Vijay Kumar](https://www.kumarrobotics.org/) and [Dinesh Jayaraman](https://www.seas.upenn.edu/~dineshj/), and am grateful to be supported by the NSF as a [GRFP](https://www.nsfgrfp.org/) Fellow. My research interests lie at the intersection of machine learning and robotics, specifically related to using reinforcement learning for control of dynamic systems as well as transfering learnng approaches from simulation to the real world (sim2real). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I completed both my BSc and MSc at Georgia Institute of Technology in Electrical and Computer Engineering. During my time there, I worked with [Aaron Young](https://www.me.gatech.edu/faculty/young) in the [Exoskeleton Prosthetic Intelligent Controls Lab (EPIC Lab)](http://www.epic.gatech.edu/) initially developing controllers for a powered knee and ankle prosthetic and eventually applying machine learning-based state estimation to autonomous hip exoskeletons. My work culminated in my Masters thesis, "Online Adaptation of User State Estimation in a Powered Hip Exoskeleton using Machine Learning". 

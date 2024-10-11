@@ -81,6 +81,8 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
+          sudo add-apt-repository universe
+          sudo apt update && sudo apt install -y python3-pip
           sudo apt install python3-jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build

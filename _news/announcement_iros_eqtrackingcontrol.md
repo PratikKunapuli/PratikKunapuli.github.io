@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[https://pratikkunapuli.github.io/EQTrackingControl/](Leveraging Symmetry to Accelerate Learning of Trajectory Tracking Controllers for Free-Flying Robotic Systems) will be presented at the SymRob workshop at IROS 2024!
+[Leveraging Symmetry to Accelerate Learning of Trajectory Tracking Controllers for Free-Flying Robotic Systems](https://pratikkunapuli.github.io/EQTrackingControl/) will be presented at the SymRob workshop at IROS 2024!

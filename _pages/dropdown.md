@@ -1,15 +1,10 @@
 ---
 layout: page
-title: submenus
-nav: false
+title: Projects
+nav: true
 dropdown: true
 children:
-  - title: publications
-    permalink: /publications/
+  - title: Equivariance in Tracking Control (ICRA 2025)
+    permalink: /EQTrackingControl/
   - title: divider
-  - title: projects
-    permalink: /projects/
-  - title: divider
-  - title: blog
-    permalink: /blog/
 ---

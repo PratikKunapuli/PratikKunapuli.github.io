@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: <strong>Ph.D. Student</strong>, University of Pennsylvania
 
@@ -15,6 +15,7 @@ profile:
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+nav_order: 1
 ---
 
 I'm a doctoral student in Computer and Information Science (CIS) at [GRASP](https://www.grasp.upenn.edu/) at the University of Pennsylvania. I am co-advised by [Vijay Kumar](https://www.kumarrobotics.org/) and [Dinesh Jayaraman](https://www.seas.upenn.edu/~dineshj/), and am grateful to be supported by the NSF as a [GRFP](https://www.nsfgrfp.org/) Fellow. My research interests lie at the intersection of machine learning and robotics, specifically related to using reinforcement learning for control of agile and dynamic systems as well as transferring learning approaches from simulation to the real world (sim2real). 

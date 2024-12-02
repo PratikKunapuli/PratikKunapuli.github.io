@@ -44,7 +44,7 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 bib_search: true
 
@@ -306,7 +306,6 @@ filtered_bibtex_keywords:
     additional_info,
     altmetric,
     annotation,
-    award,
     award_name,
     bibtex_show,
     blog,

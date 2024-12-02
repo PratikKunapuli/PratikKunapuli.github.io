@@ -9,7 +9,7 @@
 @article{welde2024leveragingsymmetryacceleratelearning,
   abbr={arXiv},
   title={Leveraging Symmetry to Accelerate Learning of Trajectory Tracking Controllers for Free-Flying Robotic Systems}, 
-  author={Jake Welde* and Nishanth Rao* and Pratik Kunapuli* and Dinesh Jayaraman and Vijay Kumar},
+  author={Pratik Kunapuli* and Jake Welde* and Nishanth Rao* and Dinesh Jayaraman and Vijay Kumar},
   year={2024},
   eprint={https://arxiv.org/abs/2409.11238},
   archivePrefix={arXiv},
@@ -20,6 +20,7 @@
   selected={true},
   abstract={Tracking controllers enable robotic systems to accurately follow planned reference trajectories. In particular, reinforcement learning (RL) has shown promise in the synthesis of controllers for systems with complex dynamics and modest online compute budgets. However, the poor sample efficiency of RL and the challenges of reward design make training slow and sometimes unstable, especially for high-dimensional systems. In this work, we leverage the inherent Lie group symmetries of robotic systems with a floating base to mitigate these challenges when learning tracking controllers. We model a general tracking problem as a Markov decision process (MDP) that captures the evolution of both the physical and reference states. Next, we prove that symmetry in the underlying dynamics and running costs leads to an MDP homomorphism, a mapping that allows a policy trained on a lower-dimensional "quotient" MDP to be lifted to an optimal tracking controller for the original system. We compare this symmetry-informed approach to an unstructured baseline, using Proximal Policy Optimization (PPO) to learn tracking controllers for three systems: the Particle (a forced point mass), the Astrobee (a fullyactuated space robot), and the Quadrotor (an underactuated system). Results show that a symmetry-aware approach both accelerates training and reduces tracking error after the same number of training steps.},
   website={https://pratikkunapuli.github.io/EQTrackingControl/},
+  award={Oral (~20% acceptance rate) at NeurREPS Workshop at NeurIPS 2024},
 }
 
 @article{bhattacharya2024visiontransformersendtoendvisionbased,
@@ -72,7 +73,7 @@
 
 @article{kang2020realtime,
   abbr={IEEE TMRB},
-  author={Kang*, Inseung and Kunapuli*, Pratik and Young, Aaron J.},
+  author={Kunapuli*, Pratik and Kang*, Inseung and Young, Aaron J.},
   journal={IEEE Transactions on Medical Robotics and Bionics}, 
   title={Real-Time Neural Network-Based Gait Phase Estimation Using a Robotic Hip Exoskeleton},
   abstract={Lower limb exoskeletons provide assistance during the gait cycle using a state variable, one in particular is gait phase. This is crucial for the exoskeleton controller to provide the user accurate assistance. Conventional methods often utilize an event marker to estimate gait phase by computing the average stride time. However, this strategy has limitations in adapting to dynamic speeds. We developed a sensor fusion-based neural network model to estimate the gait phase in real-time that can adapt to dynamic speeds ranging from 0.6 to 1.1 m/s. Ten able-bodied subjects walked with an exoskeleton using our estimator and were provided with corresponding torque assistance. Our best performing model had RMSE below 29 ms and 4% for real-time estimation and torque generation, respectively, reducing the estimation error by 36.0% (p < 0.01) and torque error by 40.9% (p < 0.001) compared to conventional methods. Our results indicate that creating a general user-independent model and additionally training on user-specific data outperforms the user-specific model and user-independent model. Our study validates the feasibility of using a sensor fusion-based machine learning model to accurately estimate the user's gait phase and improve the controllability of a lower limb exoskeleton.}, 

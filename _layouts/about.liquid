@@ -64,6 +64,14 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Mentees -->
+    {% if site.data.mentees %}
+      <h2>
+        <a href="#mentees" style="color: inherit">Mentored Students</a>
+      </h2>
+      {% include mentees.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">

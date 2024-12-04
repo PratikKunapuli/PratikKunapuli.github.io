@@ -1,0 +1,48 @@
+<div class="mentees-container">
+  <!-- Left Column - Headers -->
+  <div class="mentees-headers">
+    <h3>Current Students</h3>
+    <h3 class="past-header">Past Students</h3>
+  </div>
+
+  <!-- Right Column - Content -->
+  <div class="mentees-content">
+    <!-- Current Mentees -->
+    <div class="mentees-section">
+      {% assign current_mentees = site.data.mentees | where: "active", true %}
+      {% for mentee in current_mentees %}
+        <div class="mentee">
+          <div class="mentee-name">
+            {% if mentee.website %}
+              <a href="{{ mentee.website }}" target="_blank">{{ mentee.name }}</a>
+            {% else %}
+              {{ mentee.name }}
+            {% endif %}
+          </div>
+          {% if mentee.degree %}<div class="mentee-degree">{{ mentee.degree }}</div>{% endif %}
+          {% if mentee.year %}<div class="mentee-year">{{ mentee.year }}</div>{% endif %}
+          {% if mentee.current %}<div class="mentee-current">Currently: {{ mentee.current }}</div>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Past Mentees -->
+    <div class="mentees-section">
+      {% assign past_mentees = site.data.mentees | where: "active", false %}
+      {% for mentee in past_mentees %}
+        <div class="mentee">
+          <div class="mentee-name">
+            {% if mentee.website %}
+              <a href="{{ mentee.website }}" target="_blank">{{ mentee.name }}</a>
+            {% else %}
+              {{ mentee.name }}
+            {% endif %}
+          </div>
+          {% if mentee.degree %}<div class="mentee-degree">{{ mentee.degree }}</div>{% endif %}
+          {% if mentee.year %}<div class="mentee-year">{{ mentee.year }}</div>{% endif %}
+          {% if mentee.current %}<div class="mentee-current">Currently: {{ mentee.current }}</div>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

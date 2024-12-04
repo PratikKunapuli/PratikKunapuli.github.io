@@ -1,0 +1,16 @@
+- name: "Harsh Goel"
+  current: "PhD, UT Austin"
+  degree: "Robo MS, UPenn"
+  active: false
+- name: "Akshay Manikandan"
+  current: "Tech Consultant, Birlasoft"
+  degree: "Robo MS, UPenn"
+  active: false
+- name: "Nishanth Rao"
+  current: "Robo MS, UPenn"
+  degree: "Robo MS, UPenn"
+  active: true
+- name: "Bryan Alfaro"
+  current: "Robo MS, UPenn"
+  degree: "Robo MS, UPenn"
+  active: true

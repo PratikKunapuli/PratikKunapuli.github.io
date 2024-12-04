@@ -1,6 +1,6 @@
 <div class="mentees">
   <!-- Current Mentees -->
-  <h3>Current Students</h3>
+  <h4>Current Students</h4>
   {% assign current_mentees = site.data.mentees | where: "active", true %}
   {% for mentee in current_mentees %}
     <div class="mentee">
@@ -14,7 +14,7 @@
   {% endfor %}
 
   <!-- Past Mentees -->
-  <h3>Past Students</h3>
+  <h4>Past Students</h4>
   {% assign past_mentees = site.data.mentees | where: "active", false %}
   {% for mentee in past_mentees %}
     <div class="mentee">
